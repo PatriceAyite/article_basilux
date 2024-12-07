@@ -7,15 +7,14 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { Modal } from 'bootstrap';
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html',
-  standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
-  styleUrls: ['./product-list.component.scss']
+    selector: 'app-product-list',
+    templateUrl: './product-list.component.html',
+    imports: [
+        CommonModule,
+        FormsModule,
+        ReactiveFormsModule
+    ],
+    styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent implements OnInit {
   products: Product[] = [];

@@ -4,11 +4,10 @@ import { ProductListComponent } from "./product-list/product-list.component";
 
 
 @Component({
-  selector: 'app-root',
-  standalone:true,
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  imports: [ProductListComponent]
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    imports: [ProductListComponent]
 })
 export class AppComponent {
   title = 'product-management';
